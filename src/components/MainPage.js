@@ -41,7 +41,7 @@ const MainPage = () => {
         let parseData = await data.json();
         setProducts(parseData.products);
         setpagebtn(false);
-        console.log(Products);
+        
     }
 
     const handledropdown = async(e) =>{
@@ -52,7 +52,7 @@ const MainPage = () => {
         let parseData = await data.json();
         setProducts(parseData.products);
         setpagebtn(false);
-        console.log(Products);
+        
         
     }
 
@@ -61,7 +61,7 @@ const MainPage = () => {
         //eslint-disable-next-line
     }, [])
 
-    // var a = ["sss","xxx","yyyy"];
+   
     return (
         <>
             <div className='container'>
